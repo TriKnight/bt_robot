@@ -6,14 +6,12 @@ Behavior Tree example for ROS
 
 1. git clone the repo.
 ```
-mkdir -p ~/ros1_bt_ws/src
-cd ~/ros1_bt_ws/src
-git clone https://github.com/Adlink-ROS/BT_ros1.git
+https://github.com/TriKnight/bt_robot
 ```
 
 2. Install dependencies
 ```
-cd ~/ros1_bt_ws
+cd ~/catkin_ws
 rosdep install --from-paths src --ignore-src -r -y
 ```
 
