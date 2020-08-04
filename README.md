@@ -36,7 +36,7 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch
 ```
 * Open 3rd termainal and run BT. (melodic environment) 
 ```
-rosrun bt_robot node _file:=$HOME/catkin_ws/src/bt_robot/bt_xml/bt_robot_nav.xml
+rosrun bt_robot node _file:=$HOME/catkin_ws/src/bt_robot/bt_xml/bt_robot_nav_interrupt.xml
 ```
 * Open 4th try the terminal and pub interrupt event. (melodic environment)
 ```
